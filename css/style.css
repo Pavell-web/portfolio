@@ -1,0 +1,185 @@
+/* GENERAL */
+
+body {
+  background: url(../images/bg-tile.png);
+}
+
+a {
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h2{
+    font-size: 60px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    
+}
+
+/* GENERAL END */
+
+
+/* HEADER */
+
+.header {
+ background-color: rgb(24, 24, 37);
+}
+
+.header-title {
+  display: block;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  font-family: 'Permanent Marker', cursive;
+  bottom: 5%;
+  margin-left: -100px;
+  z-index: 10;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.video_wrap {
+    position: relative;
+    min-height: 250px;
+    max-height: 750px;
+    display: block;
+    width: 100%;
+    max-width: 940px;
+    margin: auto;
+}
+
+.video_bg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* HEADER END */
+
+
+/* ABOUT */
+
+.page-about {
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.page-about p {
+    font-size: 26px;
+    text-align: justify;
+}
+
+.page-about h2, h3 {
+    text-align: center;
+    
+}
+
+.skills-item {
+font-size: 1.5rem;
+line-height: 2.5rem;
+}
+
+/* ABOUT END*/
+
+
+/* GALERY */
+
+.galery {
+  background-color: rgb(24, 24, 37);
+}
+
+.galery h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.galery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+    min-height: 300px;
+}
+
+.galery-item img {
+    object-fit: cover;
+    width: 350px;
+    transition-duration: 300ms;
+}
+
+.galery-item img:hover {
+ transform: scale(2);
+}
+
+.galery-item p {
+  color: #fff;
+}
+
+/* GALERY END*/
+
+
+/* PROGRAMS */
+
+.programs__heading {
+  font-size: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.program__photo-item p {
+margin-top: 15px;
+margin-bottom: 15px;
+font-size: 20px;
+}
+
+#page-programs h2 {
+    text-align: center;
+}
+
+/* PROGRAMS END*/
+
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(24, 24, 37);
+}
+
+footer .links {
+  padding: 30px;
+}
+
+footer p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+footer .logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+footer .links-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .my-mail {
+  display: block;
+  margin: 20px;
+}
